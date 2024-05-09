@@ -1,0 +1,60 @@
+// ゲーム本体のルール定義
+(game "cet2kaik"
+    (players 2)
+    (equipment
+        {
+            // --- 盤（布/tak1） ---
+            (board (square 9))
+
+            // --- 投げ棒（裁/xy1） ---
+            (dice d:2 from:0 num:5)
+
+            // --- 点棒（値軸/mak2 la1） ---
+
+            // --- 駒（片/zuo1） ---
+            
+            // 船
+            (piece "muak1" )
+
+            // 兵
+            (piece "kuak2" )
+
+            // 弓
+            (piece "gua2" )
+
+            // 車
+            (piece "kaun1" )
+
+            // 虎
+            (piece "dau2" )
+
+            // 馬
+            (piece "maun1" )
+
+            // 筆
+            (piece "kua2" )
+
+            // 巫
+            (piece "tuk2" )
+
+            // 将
+            (piece "uai1" )
+
+            // 王
+            (piece "io" )
+
+            // 皇
+            (piece "tam2" )
+        }
+    )
+
+    (rules
+        (start
+            {
+                (place )
+            }
+        )
+        (play )
+        (end )
+    )
+)
